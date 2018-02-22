@@ -20,7 +20,14 @@ using System.Threading.Tasks;
             }
             Console.WriteLine(str);
             Console.ReadKey();
-            
+        }
+    }
+
+    class Circle
+    {
+        static void Main()
+        {
+      
       Console.Write(
          "   *   \n" +
          " *   * \n" +
@@ -31,4 +38,4 @@ using System.Threading.Tasks;
          "   *   \n");
             Console.ReadKey();
             }
-            }
+       }
