@@ -20,5 +20,15 @@ using System.Threading.Tasks;
             }
             Console.WriteLine(str);
             Console.ReadKey();
-        }
-    }
+            
+      Console.Write(
+         "   *   \n" +
+         " *   * \n" +
+         "*     *\n" +
+         "*     *\n" +
+         "*     *\n" +
+         " *   * \n" +
+         "   *   \n");
+            Console.ReadKey();
+            }
+            }

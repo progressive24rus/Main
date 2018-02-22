@@ -8,6 +8,7 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
+<<<<<<< HEAD
 
             int n = int.Parse(Console.ReadLine());
             var str = new String('*', 5);
@@ -20,5 +21,17 @@ using System.Threading.Tasks;
             }
             Console.WriteLine(str);
             Console.ReadKey();
+=======
+            Console.Write(
+         "   *   \n" +
+         " *   * \n" +
+         "*     *\n" +
+         "*     *\n" +
+         "*     *\n" +
+         " *   * \n" +
+         "   *   \n");
+            Console.ReadKey();
+
+>>>>>>> test2
         }
     }
