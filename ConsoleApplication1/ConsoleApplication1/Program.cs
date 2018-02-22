@@ -10,7 +10,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("Dasvidylu");
+            Console.Write(
+         "   *   \n" +
+         " *   * \n" +
+         "*     *\n" +
+         "*     *\n" +
+         "*     *\n" +
+         " *   * \n" +
+         "   *   \n");
+            Console.ReadKey();
+
         }
     }
 }
