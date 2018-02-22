@@ -4,13 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
-{
-    class Program
+    class Square
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.Write("Dasvidylu");
+
+            int n = int.Parse(Console.ReadLine());
+            var str = new String('*', 5);
+            Console.WriteLine(str);
+            int i = 0;
+            while (i != n - 2)
+            {
+                Console.WriteLine("*" + new string(' ', n - 2) + "*");
+                i++;
+            }
+            Console.WriteLine(str);
+            Console.ReadKey();
         }
     }
-}
